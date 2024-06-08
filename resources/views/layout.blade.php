@@ -29,9 +29,9 @@
                 </ul>
                 <form class="d-flex">
                     <select class="form-control changeLang"">
-                        <option value="en">English</option>
-                        <option value="cn">Chinese</option>
-                        <option value="sp">Spanish</option>
+                        <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
+                        <option value="cn" {{ session()->get('locale') == 'cn' ? 'selected' : '' }}>Chinese</option>
+                        <option value="sp" {{ session()->get('locale') == 'sp' ? 'selected' : '' }}>Spanish</option>
                     </select>
                 </form>
             </div>
