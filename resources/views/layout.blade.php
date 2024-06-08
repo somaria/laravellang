@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('about') }}">About Us</a>
+                        <a class="nav-link" href="{{ route('about') }}">@lang('common.aboutus')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
+                        <a class="nav-link" href="{{ route('contact') }}">@lang('common.contactus')</a>
                     </li>
                 </ul>
                 <form class="d-flex">
